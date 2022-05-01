@@ -1,0 +1,24 @@
+body {
+    overflow: auto;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    width: 6vw;
+}
+
+main {
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+}
+
+.architecture-img {
+    width: 100%;
+}
