@@ -15,7 +15,7 @@ header {
 /* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 */
 
 .body-interact-1 {
-    background-image: url(/img/interact-1.png);
+    background-image: url(../img/interact-1.png);
     background-size: cover;
 }
 
