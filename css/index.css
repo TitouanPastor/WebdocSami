@@ -60,7 +60,8 @@ h1 {
 .btn-first:hover {
     background: var(--main-dark-blue);
     color: var(--main-white);
-    width: 325px;
+    transform: translateY(-15px);
+    /* width: 375px; */
 }
 
 footer {
@@ -109,3 +110,44 @@ footer {
     from, to { border-color: transparent }
     50% { border-color: var(--main-dark-blue) }
   }
+
+
+
+
+#popup {
+    display: block;
+    position: absolute;
+    top: 2%;
+    left: 36.5%;
+    background-color: rgba(239, 239, 239, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    width: 28vw;
+    height: fit-content;
+    z-index: 200;
+}
+
+#popupclose {
+    
+    font-size: 1.75vh;
+    float: right;
+    padding: 10px;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.popupcontent {
+    display: flex;
+    justify-content:space-between;
+    gap: 15px;
+    font-size: 1.75vh;
+    padding: 10px;
+}
+
+.popupcontent p {
+    margin: 0;  
+}
+
+#button {
+    cursor: pointer;
+}
