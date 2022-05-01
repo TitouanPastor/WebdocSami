@@ -1,8 +1,15 @@
 header {
     display: flex;
-    justify-content: right;
-    padding-top: 20px;
-    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: var(--main-dark-blue);
 }
 
 .logo {
