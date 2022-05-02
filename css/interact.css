@@ -5,11 +5,48 @@ header {
     text-align: center;
     padding: 20px;
 }
-
-header a {
-    font-size: 1.2vw;
+  
+a{
+    display: block;
+    width: 7vw;
+    height: fit-content;
+    line-height: 40px;
+    font-size: 1vw;
+    font-family: sans-serif;
     text-decoration: none;
     color: var(--main-dark-blue);
+    border: 2px solid var(--main-dark-blue);
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+  
+ a span{
+    position: relative;
+    z-index: 2;
+}
+  
+a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--main-dark-blue);
+    border-radius: 11px;
+    transition: all .35s;
+}
+  
+a:hover{
+    color: #fff;
+}
+  
+a:hover:after{
+    width: 100%;
 }
 
 .logo {
@@ -22,7 +59,7 @@ header a {
 /* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 */
 
 .body-interact-1 {
-    background-image: url(../img/interact-1.png);
+    background-image: url(../img/main-interact.jpg);
     background-size: cover;
 }
 

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <header>
         <img class="logo" src="./img/logo-bleu.png" alt="Logo du webdoc">
     </header>
@@ -50,16 +52,17 @@
         var popup = document.getElementById("popup");
         var button = document.getElementById("button");
         // Close Popup Event
-        closePopup.onclick = function() {
-          overlay.style.display = 'none';
-          popup.style.display = 'none';
+        closePopup.onclick = function () {
+            overlay.style.display = 'none';
+            popup.style.display = 'none';
         };
         // Show Overlay and Popup
-        button.onclick = function() {
-          overlay.style.display = 'block';
-          popup.style.display = 'block';
+        button.onclick = function () {
+            overlay.style.display = 'block';
+            popup.style.display = 'block';
         }
     </script>
 
 </body>
+
 </html>
