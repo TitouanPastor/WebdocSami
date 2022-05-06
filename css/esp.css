@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-image: url(../img/home-sketch.png);
+    width: 100%;
+    height: 100vh;
+    /*a voir si sa bug pas*/
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    width: 6vw;
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75vw;
+    padding: 20px;
+    height: 70%;
+    margin: 0 auto;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 30px;
+}
+
+h1,h2 {
+    margin: 0;
+    color: var(--main-dark-blue);
+    font-size: 47px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 6vw;
+}
+
+.btn-first {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 20px;
+    width: 375px;
+    color: var(--main-white);
+    background-color: var(--main-dark-blue);
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-first:hover {
+    backdrop-filter: blur(2px);
+    background: transparent;
+    color: var(--main-dark-blue);
+    border-color: var(--main-dark-blue);
+    transform: translateY(-15px);
+    /* width: 375px; */
+}
+
+
+
+
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0%;
+}
+
+.footer-links {
+    padding: 10px;
+    margin-left: 1.5%;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--main-dark-blue);
+}
