@@ -58,6 +58,26 @@ h1 {
     transition: all 0.3s ease-in-out;
 }
 
+.b1 {
+    animation: ButtononloadB1 1.5s ease-in-out;
+}
+
+@keyframes ButtononloadB1 {
+    from { transform: translateY(1.5vw); opacity: 0; }
+    15% { transform: translateY(1.5vw); opacity: 0; }
+    to { transform: translateY(0vw); opacity: 1; }
+}
+
+.b2 {
+    animation: ButtononloadB2 2s ease-in-out;
+}
+
+@keyframes ButtononloadB2 {
+    from { transform: translateY(1.5vw); opacity: 0; }
+    25% { transform: translateY(1.5vw); opacity: 0; }
+    to { transform: translateY(0vw); opacity: 1; }
+}
+
 .btn-first:hover {
     background: var(--main-dark-blue);
     color: var(--main-white);
@@ -81,6 +101,10 @@ footer {
 .footer-links a {
     text-decoration: none;
     color: var(--main-dark-blue);
+}
+
+.footer-links a:hover {
+    text-decoration:underline;
 }
 
 
@@ -126,6 +150,13 @@ footer {
     width: 28vw;
     height: fit-content;
     z-index: 200;
+
+    animation: Popuponload 1s ease-in-out;
+}
+
+@keyframes Popuponload {
+    from { transform: translateY(-5vw); }
+    to { transform: translateY(0vw); }
 }
 
 #popupclose {
