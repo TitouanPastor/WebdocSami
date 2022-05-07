@@ -1,0 +1,51 @@
+body {
+    background-image: url(../img/main-interact.jpg);
+    backdrop-filter: blur(3px);
+    height: max-content;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 65vw;
+    height: auto;
+    margin:0 auto;
+}
+
+.title, .article-container {
+    padding: 1vw;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 2vw;
+}
+
+h2, h3 {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+.limg {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 0 5vh 0;
+}
+
+.limg > p {
+    width: 60%;
+}
+
+.limg > img {
+    object-fit: contain;
+    width: 20vw;
+    height: auto;
+}
+
