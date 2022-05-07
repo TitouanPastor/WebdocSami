@@ -1,13 +1,15 @@
 header {
+    position: absolute;
     display: flex;
+    width: 100%;
     justify-content: right;
     align-items: center;
     text-align: center;
-    padding: 20px;
 }
 
 .logo {
     width: 6vw;
+    padding: 20px 20px 0 0;
 }
 
 footer {
@@ -69,7 +71,29 @@ a:hover:after{
     background-size: cover;
 }
 
-.hover_group:hover {
+rect {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    fill: var(--main-white);
+}
+
+text {
+    pointer-events: none;
+    opacity: 0;
+    font-size: 35px;
+    font-weight: 600;
+    fill: var(--main-dark-blue);
+    transition: all 0.2s ease-in-out;
+}
+
+rect:hover {
+    font-size: 15px;
+    opacity: 0.15;
+    text-align: center;
+}
+
+rect:hover ~ text {
     opacity: 1;
 }
   
