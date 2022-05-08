@@ -37,6 +37,8 @@ main {
 }
 
 .tile {
+    display: flex;
+    flex-direction: column;
     width: 25vw;
     height: 15vw;
     backdrop-filter: blur(4px);
@@ -50,10 +52,11 @@ main {
 .tile:hover {
     backdrop-filter: blur(7px);
     transform: scale(108%);
-    z-index: 1000;
+    z-index: 2;
 }
 
 h1,h2,h3,h4 {
+    margin: 1.25vw 0vw 1vw 0vw;
     font-size: 2vw;
     color: var(--main-dark-blue);
 }
