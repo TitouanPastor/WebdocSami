@@ -1,10 +1,15 @@
 header {
     position: absolute;
+    top: 0;
     display: flex;
     width: 100%;
     justify-content: right;
     align-items: center;
     text-align: center;
+}
+
+header > a {
+    z-index: 10;
 }
 
 .logo {
@@ -36,12 +41,12 @@ footer {
     transition: all .35s;
 }
   
- a span{
+a span{
     position: relative;
     z-index: 200;
 }
   
-a:after{
+.wrapper > a:after{
     position: absolute;
     content: "";
     top: 0;
@@ -53,11 +58,11 @@ a:after{
     transition: all .35s;
 }
   
-a:hover{
+.wrapper > a:hover{
     color: #fff;
 }
   
-a:hover:after{
+.wrapper > a:hover:after{
     width: 100%;
 }
 

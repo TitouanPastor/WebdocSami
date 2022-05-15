@@ -1,0 +1,14 @@
+.l2, .l3 {
+    margin: 0;
+}
+
+.l3.limg {
+    flex-direction: column;
+    align-items: center;
+}
+.l3.limg p {
+    width: 100%;
+}
+.l3.limg img {
+    width: 80%;
+}

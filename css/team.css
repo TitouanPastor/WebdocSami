@@ -33,7 +33,6 @@ main {
     grid-template-columns: auto auto;
     grid-row: auto auto;
     gap: 0.75vw;
-    margin-top: 2vw;
 }
 
 .tile {
@@ -66,7 +65,7 @@ p {
 }
 
 .button {
-    margin-top: 5vh;
+    margin-top: 3vh;
     width: 100%;
     display: flex;
     justify-content: center;

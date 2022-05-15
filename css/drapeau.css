@@ -1,0 +1,36 @@
+main {
+    width: 55vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    background-image: url(../img/drapeau.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.title {
+    box-shadow: none;
+}
+
+.article-container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-shadow: none;
+}
+
+.limg {
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh 0 2vh 0;
+}
+
+.limg > p {
+    width: 100%;
+    text-align: justify;
+}
+
+.limg > img {
+    object-fit: contain;
+    width: 19vw;
+    height: auto;
+}
