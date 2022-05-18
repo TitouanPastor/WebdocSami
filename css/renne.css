@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-.l1 img {
+.l1 img,.l5 img {
     transform: rotate(2deg);
 }
 

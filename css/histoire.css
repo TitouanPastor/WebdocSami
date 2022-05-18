@@ -1,0 +1,15 @@
+.l2 img {
+    transform: rotate(2deg);
+}
+
+.l2, .l2 p, .l4, .l4 p {
+    margin-top: 0;
+}
+
+.l4 img {
+    transform: rotate(-2deg);
+}
+
+body {
+    background-image: url(../img/bibliotheque-interact.jpg);
+}
