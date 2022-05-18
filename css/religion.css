@@ -1,0 +1,26 @@
+body {
+    background-image: url(../img/bibliotheque-interact.jpg);
+}
+
+.l2, .l2 p {
+    margin-top: 0;
+}
+
+.l2 img {
+    transform: rotate(2deg);
+}
+
+.l4 img {
+    width: 100%;
+}
+
+.l4 > .legende {
+    text-align: center;
+}
+
+.legende {
+    margin: 0 auto;
+    margin-top: 0;
+    font-size: 1vw;
+    font-style: italic;
+}
