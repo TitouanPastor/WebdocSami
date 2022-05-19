@@ -71,6 +71,17 @@ a span{
 /* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 */
 /* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 *//* INTERACTION 1 */
 
+audio {
+    position: absolute;
+    bottom: 1%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    z-index: 1000;
+    height: 4vh;
+}
+
 .body-interact-1 {
     background-image: url(../img/main-interact.jpg);
     background-size: cover;

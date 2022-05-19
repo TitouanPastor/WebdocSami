@@ -1,0 +1,28 @@
+body {
+    background-image: url(../img/interieur-interact.jpg);
+}
+
+.l4 {
+    margin: 1.5vw 0vw 1.5vw 0vw;
+    text-align: left;
+    font-style: italic;
+
+}
+
+.l2 {
+    margin-top: 0;
+}
+
+.bracelet {
+    transform: rotate(2deg);
+}
+
+.l4 > h3 {
+    color: rgb(146, 146, 146);
+    font-size: 1.4vw;
+}
+
+.l4 > p {
+    color: rgba(146, 146, 146,0.9);
+    font-size: 1.1vw;
+}
