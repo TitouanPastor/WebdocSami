@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/articles-template.css">
     <link rel="stylesheet" href="../../css/pechechasse.css">
-    <title>Document</title>
+    <title>Chasse et pêche | Webdoc sami</title>
 </head>
 <body>
     <header>
@@ -16,6 +16,8 @@
             <img class="logo" src="../../img/logo-bleu.png" alt="Logo du webdoc">
         </a>
     </header>
+
+
 
     <main>
         <div class="title">
@@ -43,6 +45,14 @@
         <div class="wrapper">
           <a href="../main-interact.html"><span>Retour</span></a>
         </div>
+        <audio id="myaudio" controls autoplay loop>
+            <source src="../../audio/ovlla-luohti-ole-sin-joik.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
     </footer>
 </body>
+<script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.1;
+  </script>
 </html>
