@@ -138,3 +138,7 @@ rect:hover ~ text {
     background-image: url(../img/bibliotheque-interact.jpg);
     background-size: cover;
 }
+
+.easteregg rect:hover {
+    opacity: 0;
+}
