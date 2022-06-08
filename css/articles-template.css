@@ -147,3 +147,7 @@ audio {
     height: 4vh;
 }
 
+p {
+    text-indent: 65px;
+}
+
